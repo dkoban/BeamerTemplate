@@ -1,0 +1,84 @@
+---
+title: "Improving Analysis through Effective Visualization"
+institute: |
+  | Major Dan Koban
+  | FA49, Skope Analytic Methodologist
+  | September 25, 2019
+author: \includegraphics[height=1.25in]{socom.png}
+layout: true
+output: 
+  beamer_presentation:
+    theme: Warsaw
+    toc: false
+    slide_level: 2
+    fonttheme: default
+    highlight: default
+    includes:
+        in_header: footers2.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+## Slide with Bullets
+
+\begin{block}{Standard Block}. Do great work. <http://rmarkdown.rstudio.com>\end{block}
+
+\begin{exampleblock}{Example Block}. Important info here. \end{exampleblock}
+
+\begin{alertblock}{Alert Block}. link here. <http://rmarkdown.rstudio.com>\end{alertblock}
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with Bullets
+\begin{columns}
+\begin{column}{0.48\textwidth}
+  \includegraphics[width=2in]{FBnetwork.png}
+\end{column}
+\begin{column}{0.48\textwidth}
+text
+\begin{itemize}
+  \item bullet 1
+  \item bullet 2
+\end{itemize}
+text
+\begin{itemize}
+  \item bullet 1
+  \item bullet 2
+\end{itemize}
+\end{column}
+\end{columns}
+
+# Methodology
+- Bullet 1
+
+## Slide with Figure
+
+Analytic start points
+\begin{center}
+  \includegraphics[width=1.00\textwidth]{methodology_fig.png}
+\end{center}
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+# Examples
+## Example 1
+\begin{center}
+  \includegraphics[width=1.00\textwidth]{dashboard.png}
+\end{center}
+
+## Questions
+\begin{block}{\centering Contact Info}
+  \centering 
+  Contact Info donald.d.koban.mil@mail.mil
+  \vskip 0.1cm 
+  901-573-8246 
+\end{block}
